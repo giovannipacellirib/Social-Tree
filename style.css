@@ -51,7 +51,7 @@ ul li a {
 
     padding: 12px;
 
-    background: #cebce0b6;
+    background: #f3f0f0;
     border: 1.5px solid #BB99DD;
     border-radius: 4px;
 
@@ -74,4 +74,8 @@ footer {
     margin-bottom: 15px;
     font-size: small;
     color: rgba(134, 134, 134, 0.548);
+}
+
+strong {
+    color: rgba(173, 173, 173, 0.548);
 }
