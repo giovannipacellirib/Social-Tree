@@ -14,8 +14,8 @@ body * {
 }
 
 #container {
-    width: 588px;
-    max-width: 588px;
+    width: 100%;
+    max-width: 412px;
     margin: 30px auto 0px;
     padding: 0px 24px;
 }
@@ -30,23 +30,6 @@ body * {
     border-radius: 50%;
 }
 
-#profile-eli img {
-    width: 225px;
-    height: 225px;
-}
-
-.img-profile {
-    position: relative;
-}
-
-.elipse {
-    position: absolute;
-    top: 20.6%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-    padding: 5px;
-}
-
 #profile p {
     font-weight: 300;
     line-height: normal;
@@ -58,7 +41,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 35px 120px;
+    padding: 35px 20px;
 }
 
 ul li a {
@@ -90,5 +73,9 @@ footer {
     text-align: center;
     margin-bottom: 15px;
     font-size: small;
-    color: rgba(141, 141, 141, 0.685);
+    color: rgba(134, 134, 134, 0.548);
+}
+
+strong {
+    color: rgba(134, 134, 134, 0.548);
 }
